@@ -101,7 +101,9 @@ main {
     }
 
     h2 {
-        font-weight: 500;
+        &, * {
+            font-weight: 500 !important;
+        }
     }
 
     h3 {
@@ -110,6 +112,9 @@ main {
         font-size: 16px;
     }
 
+    img {
+        height: 50px;
+    }
     
 
 }
