@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,9 +10,10 @@
 }
 
 body {
-    font-family: "Arial";
+    font-family: 'Roboto', sans-serif;
     background: #f1f1f1;
     color: #1b232e;
+    font-weight: 300;
 }
 
 .container {
@@ -22,9 +25,13 @@ body {
     }
 }
 
+.destaque {
+    color: rgb(25, 129, 39);
+}
+
 header {
 
-    margin: 30px 0;
+    margin: 60px 0 30px;
 
     > .container {
         display: flex;
@@ -48,7 +55,11 @@ header {
 
 main {
 
-    margin: 120px 0;
+    margin: 110px 0;
+
+    b {
+        font-weight: 400;
+    }
 
     .mb {
 
@@ -72,6 +83,16 @@ main {
 
     h2 {
         font-weight: 500;
+    }
+
+    h3 {
+        font-weight: 400;
+        margin-top: 40px;
+        font-size: 16px;
+    }
+
+    .text-muted {
+        opacity: .7;
     }
 
     .box-code {

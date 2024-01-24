@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>typing.plugin.js - the simplest and most practical plugin for creating typewriter effect</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://gustavocoimbradev.github.io/typing-plugin-js/_plugin/css/typing.plugin.css">
 </head>
 <body>
 
     <header>
         <div class="container">
-            <h1>typing.plugin.js</h1>
-            <span>the simplest and most practical plugin for creating typewriter effect</span>
+            <h1><span class="destaque">typing</span>.plugin.js</h1>
+            <div class="typing-js">
+                <span typing-text="the simplest and most practical plugin for creating typewriter effect"></span>
+            </div>
         </div>
     </header>
     
@@ -22,27 +25,65 @@
             <div class="mb-3">
                 <h2>CSS</h2>
                 <div class="box-code">
-                    &lt;link href="https://gustavocoimbradev.github.io/typing-plugin-js/_plugin/css/typing.plugin.css" rel="stylesheet"&gt;
+                    &lt;link href="<span class="destaque">https://gustavocoimbradev.github.io/typing-plugin-js/_plugin/css/typing.plugin.css</span>" rel="stylesheet"&gt;
                 </div>    
             </div>
 
             <div class="mb-3">
                 <h2>JS</h2>
                 <div class="box-code">
-                    &lt;script src="https://gustavocoimbradev.github.io/typing-plugin-js/_plugin/js/typing.plugin.js"&gt;&lt;/script&gt;
+                    &lt;script src="<span class="destaque">https://gustavocoimbradev.github.io/typing-plugin-js/_plugin/js/typing.plugin.js</span>"&gt;&lt;/script&gt;
                 </div>
             </div>
 
             <div class="mb-3">
                 <h2>Basic Usage</h2>
                 <div class="box-code">
-                    &lt;script src="https://gustavocoimbradev.github.io/typing-plugin-js/_plugin/js/typing.plugin.js"&gt;&lt;/script&gt;
+                    &lt;div class="typing-js"&gt;<br/><br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;span typing-text="Hello, world!"&gt;&lt;/span&gt;<br/><br/>
+                    &lt;/div&gt;
+                </div>
+
+                <h3>You can use multiples phrases</h3>
+
+                <div class="box-code">
+                    &lt;div class="typing-js"&gt;<br/><br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;span typing-text="Hello, world!"&gt;&lt;/span&gt;<br/><br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;span typing-text="Hello, typing.plugin.js!"&gt;&lt;/span&gt;<br/><br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;span typing-text="Hello, developer!"&gt;&lt;/span&gt;<br/><br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;span typing-text="Goodbye, everyone!"&gt;&lt;/span&gt;<br/><br/>
+                    &lt;/div&gt;
+                </div>
+
+            </div>
+            
+
+            <div class="mb-3">
+                
+                <h2>Additional Attributes</h2>
+
+                <div class="box-code">
+                    <b>typing-time</b> <span class="text-muted">- interval time between each keystroke (default value: 40)</span><br/><br/>
+                    <b>sleeping-time</b> <span class="text-muted">- time between the end of typing and the beginning of deleting letters (default value: 2000)</span><br/><br/>
+                    <b>deleting-time</b> <span class="text-muted">- interval time between each deletion (default value: 25)</span><br/><br/>
+                    <b>interval-time</b> <span class="text-muted">- interval time between each phrase (default value: 250)</span><br/><br/>
+                    <b>typing-loop</b> <span class="text-muted">- boolean value (1/0) to enable or disable the loop (default value: 1)<br/>
+                </div>
+
+                <h3>How to use the attributes</h3>
+
+                <div class="box-code">
+                    &lt;div class="typing-js" <b>{{ place the attributes here }}</b> &gt;<br/><br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;span typing-text="Hello, world!"&gt;&lt;/span&gt;<br/><br/>
+                    &lt;/div&gt;
                 </div>
             </div>
 
         </div>
         
     </main>
+
+    <script src="https://gustavocoimbradev.github.io/typing-plugin-js/_plugin/js/typing.plugin.js"></script>
 
 </body>
 </html>
