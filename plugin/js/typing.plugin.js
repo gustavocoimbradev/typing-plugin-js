@@ -3,7 +3,7 @@
  * @version: v1.0.0
  * @author: Gustavo Coimbra
  *
- * Created by Gustavo Coimbra on 2024-01-24. Please report any bug at https://gustavocoimbra.com/Typing-JS-Plugin
+ * Created by Gustavo Coimbra on 2024-01-24. Please report any bug at https://github.com/gustavocoimbradev/Typing-Plugin-JS
  *
  * Copyright (c) 2024 Gustavo Coimbra https://gustavocoimbra.com
  *
