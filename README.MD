@@ -1,13 +1,13 @@
 # typing.plugin.js
 
-#### option 1 - cloning the repo
+### option 1 - cloning the repo
 
 run the following command in your terminal (the plugin files are located in the /plugin folder)
 
 ```bash
 git clone https://github.com/gustavocoimbradev/typing-plugin-js.git 
 ```
-#### option 2 - using the CDN
+### option 2 - using the CDN
 
 CSS
 
@@ -19,7 +19,7 @@ JS
 ```html
  <script src="https://gustavocoimbradev.github.io/typing-plugin-js/_plugin/js/typing.plugin.js"></script>  
 ```
-#### basic usage
+### basic usage
 
 ```html
 <div class="typing-js">
@@ -46,7 +46,7 @@ you can use multiples texts
 
 ** for now, it is only possible to apply the effect once on the same page. Perhaps in future implementations this problem will be resolved.
 
-#### additional attributes
+### additional attributes
 
 ````
 typing-time - interval time between each keystroke (default value: 40)
