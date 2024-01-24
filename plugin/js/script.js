@@ -1,3 +1,11 @@
+/**
+ * jquery.mask.js
+ * @version: v1.14.16
+ * @author: Igor Escobar
+ *
+ * Created by Gustavo Lima Coimbra on 2024-01-24. Please report any bug at https://github.com/gustavocoimbradev/Typing-JS-Plugin
+*/
+
 const typingElements = document.getElementsByClassName('typing-js');
 const typingElementsArray = Array.from(typingElements);
 
