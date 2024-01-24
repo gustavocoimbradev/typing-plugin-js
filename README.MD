@@ -52,17 +52,11 @@ you can use multiples texts
 
 ### additional attributes
 
-````
-typing-time - interval time between each keystroke (default value: 40)
-
-sleeping-time - time between the end of typing and the beginning of deleting letters (default value: 2000)
-
-deleting-time - interval time between each deletion (default value: 25)
-
-interval-time - interval time between each phrase (default value: 250)
-
-typing-loop - boolean value (1/0) to enable or disable the loop (default value: 1)
-````
+* typing-time - interval time between each keystroke (default value: 40)
+* sleeping-time - time between the end of typing and the beginning of deleting letters (default value: 2000)
+* deleting-time - interval time between each deletion (default value: 25)
+* interval-time - interval time between each phrase (default value: 250)
+* typing-loop - boolean value (1/0) to enable or disable the loop (default value: 1)
 
 how to use the attributes
 
