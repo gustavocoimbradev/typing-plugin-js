@@ -4,9 +4,9 @@
 
 run the following command in your terminal (the plugin files are located in the /plugin folder)
 
-```bash
+`
 git clone https://github.com/gustavocoimbradev/typing-plugin-js.git 
-```
+`
 ### option 2 - using the CDN
 
 CSS
