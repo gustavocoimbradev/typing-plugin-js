@@ -71,6 +71,9 @@ header > .container > h1 {
   font-size: 52px;
   margin-bottom: 10px;
 }
+header > .container > h1, header > .container > h1 * {
+  font-weight: 700 !important;
+}
 header > .container > span {
   font-size: 20px;
   font-weight: 500;
