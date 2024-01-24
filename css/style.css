@@ -81,10 +81,11 @@ main .box-code {
   margin: 20px 0 0;
   background: white;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 4px;
   -webkit-box-shadow: 0px 0px 15px -52px rgba(115, 115, 115, 0.31);
   -moz-box-shadow: 0px 0px 15px -52px rgba(115, 115, 115, 0.31);
   box-shadow: 0px 0px 15px -52px rgba(115, 115, 115, 0.31);
+  border-top: 40px solid rgb(25, 129, 39);
 }
 
 /*# sourceMappingURL=style.css.map */
