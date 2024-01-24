@@ -30,7 +30,7 @@ body {
 }
 
 header {
-  margin: 60px 0 30px;
+  margin: 60px 0 0;
 }
 header > .container {
   display: flex;
@@ -49,7 +49,7 @@ header > .container > span {
 }
 
 main {
-  margin: 110px 0;
+  margin: 80px 0 0;
 }
 main b {
   font-weight: 400;
