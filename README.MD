@@ -10,6 +10,7 @@ https://gustavocoimbradev.github.io/docs/plugins/typing/
 
   * Writing time per letter typed
   * Erase time per letter erased
+  * Time before erase the whole text
   * Interval time between texts typed
   * Loop (typing and erasing infinitely)
 
